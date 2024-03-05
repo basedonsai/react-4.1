@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import sen from './sentinels.svg';
 import "bootstrap/dist/css/bootstrap.css";
+import './BlenderPro-Medium.ttf';
 
 
 const Header = () => {
