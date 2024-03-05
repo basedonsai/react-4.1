@@ -1,0 +1,50 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  font-family: 'BlenderPro';
+  color: white;
+  background-color: rgb(0 0 0);
+  justify-content: space-between; /* Updated justify-content property */
+  align-items: center; /* Vertically center items in the navbar */
+  padding: 1em; /* Adjust as needed */
+}
+.navbar-logo{
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+.navbar-links {
+  font-weight: 700;
+  margin-top: 1.5em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+li:hover{
+  color: rgb(229 6 47);
+}
+
+@font-face {
+  font-family: 'BlenderPro';
+  src: url('D:\Sai\T-T\frontend\react\reactsen\public\BlenderPro-Medium.ttf') format('truetype');
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    padding: 1em;
+  }
+
+  .navbar-links {
+    margin-top: 1em; /* Adjust top margin for better spacing */
+  }
+
+  .navbar-logo {
+    margin-left: 0; /* Center the logo */
+  }
+}

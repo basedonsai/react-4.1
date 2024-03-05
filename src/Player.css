@@ -1,0 +1,43 @@
+   .player img {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover; 
+ 
+  }
+  @font-face {
+    font-family: 'BlenderPro';
+    src: url('D:\Sai\T-T\frontend\react\reactsen\public\BlenderPro-Medium.ttf') format('truetype');
+  }
+.a{
+    color: rgb(229 6 47 );
+    font-family: BlenderPro;
+    font-weight: bold;
+    
+
+}.player {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  .player:hover {
+    transform: scale(1.1); 
+    z-index: 1; 
+  }
+  
+  .player img {
+
+    object-fit: cover;
+  }
+  
+  .a {
+    color: rgb(229 6 47);
+    font-family: BlenderPro;
+    font-weight: bold;
+  }
+
+
+  
