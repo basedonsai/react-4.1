@@ -30,7 +30,7 @@ li:hover{
 
 @font-face {
   font-family: 'BlenderPro';
-  src: url('D:\Sai\T-T\frontend\react\reactsen\public\BlenderPro-Medium.ttf') format('truetype');
+  src: url('./BlenderPro-Medium.ttf') format('truetype');
 }
 
 @media only screen and (max-width: 768px) {
