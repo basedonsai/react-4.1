@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'BlenderPro';
-  src: url('D:\Sai\T-T\frontend\react\reactsen\public\BlenderPro-Medium.ttf') format('truetype');
+  src: url('./BlenderPro-Medium.ttf') format('truetype');
 }
 .page {
   display: flex;
