@@ -2,6 +2,7 @@ import React from 'react';
 import './Player.css'
 import "bootstrap/dist/css/bootstrap.css";
 
+import './BlenderPro-Medium.ttf';
 
 const Player = ({ player }) => {
     return (
